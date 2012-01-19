@@ -20,6 +20,7 @@
 		56D9AD9D14C84A21009E3822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9AD7E14C84A21009E3822 /* Foundation.framework */; };
 		56D9ADA514C84A21009E3822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D9ADA314C84A21009E3822 /* InfoPlist.strings */; };
 		56D9ADA814C84A22009E3822 /* ModalPaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9ADA714C84A22009E3822 /* ModalPaneTests.m */; };
+		56D9ADB214C84B63009E3822 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 56D9ADB114C84B63009E3822 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		56D9AD7C14C84A21009E3822 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		56D9AD7E14C84A21009E3822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56D9AD8014C84A21009E3822 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		56D9AD8414C84A21009E3822 /* ModalPane-Info.plist */ = {isa = PBXFileReference; path = "ModalPane-Info.plist"; sourceTree = "<group>"; };
+		56D9AD8414C84A21009E3822 /* ModalPane-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalPane-Info.plist"; sourceTree = "<group>"; };
 		56D9AD8614C84A21009E3822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56D9AD8814C84A21009E3822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		56D9AD8A14C84A21009E3822 /* ModalPane-Prefix.pch */ = {isa = PBXFileReference; path = "ModalPane-Prefix.pch"; sourceTree = "<group>"; };
-		56D9AD8B14C84A21009E3822 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		56D9AD8A14C84A21009E3822 /* ModalPane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalPane-Prefix.pch"; sourceTree = "<group>"; };
+		56D9AD8B14C84A21009E3822 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56D9AD8C14C84A21009E3822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		56D9AD8E14C84A21009E3822 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		56D9AD8E14C84A21009E3822 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		56D9AD8F14C84A21009E3822 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56D9AD9214C84A21009E3822 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		56D9AD9914C84A21009E3822 /* ModalPaneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalPaneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D9AD9A14C84A21009E3822 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		56D9ADA214C84A21009E3822 /* ModalPaneTests-Info.plist */ = {isa = PBXFileReference; path = "ModalPaneTests-Info.plist"; sourceTree = "<group>"; };
+		56D9ADA214C84A21009E3822 /* ModalPaneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalPaneTests-Info.plist"; sourceTree = "<group>"; };
 		56D9ADA414C84A21009E3822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		56D9ADA614C84A21009E3822 /* ModalPaneTests.h */ = {isa = PBXFileReference; path = ModalPaneTests.h; sourceTree = "<group>"; };
+		56D9ADA614C84A21009E3822 /* ModalPaneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalPaneTests.h; sourceTree = "<group>"; };
 		56D9ADA714C84A22009E3822 /* ModalPaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalPaneTests.m; sourceTree = "<group>"; };
+		56D9ADB114C84B63009E3822 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		56D9AD6D14C84A21009E3822 = {
 			isa = PBXGroup;
 			children = (
+				56D9ADB114C84B63009E3822 /* README */,
 				56D9AD8214C84A21009E3822 /* ModalPane */,
 				56D9ADA014C84A21009E3822 /* ModalPaneTests */,
 				56D9AD7B14C84A21009E3822 /* Frameworks */,
@@ -224,6 +227,7 @@
 			files = (
 				56D9AD8714C84A21009E3822 /* InfoPlist.strings in Resources */,
 				56D9AD9314C84A21009E3822 /* ViewController.xib in Resources */,
+				56D9ADB214C84B63009E3822 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
