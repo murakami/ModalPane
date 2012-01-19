@@ -66,8 +66,6 @@
                                                initWithNibName:@"ModalPaneViewController"
                                                bundle:nil];
     viewController.delegate = self;
-    //UINavigationController  *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    //[self presentModalViewController:navigationController animated:YES];
     [self presentModalViewController:viewController animated:YES];
 }
 
