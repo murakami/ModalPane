@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D9AD7D14C84A21009E3822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9AD7C14C84A21009E3822 /* UIKit.framework */; };
+		56D9AD7F14C84A21009E3822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9AD7E14C84A21009E3822 /* Foundation.framework */; };
+		56D9AD8114C84A21009E3822 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9AD8014C84A21009E3822 /* CoreGraphics.framework */; };
+		56D9AD8714C84A21009E3822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D9AD8514C84A21009E3822 /* InfoPlist.strings */; };
+		56D9AD8914C84A21009E3822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9AD8814C84A21009E3822 /* main.m */; };
+		56D9AD8D14C84A21009E3822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9AD8C14C84A21009E3822 /* AppDelegate.m */; };
+		56D9AD9014C84A21009E3822 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9AD8F14C84A21009E3822 /* ViewController.m */; };
+		56D9AD9314C84A21009E3822 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D9AD9114C84A21009E3822 /* ViewController.xib */; };
+		56D9AD9B14C84A21009E3822 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9AD9A14C84A21009E3822 /* SenTestingKit.framework */; };
+		56D9AD9C14C84A21009E3822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9AD7C14C84A21009E3822 /* UIKit.framework */; };
+		56D9AD9D14C84A21009E3822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9AD7E14C84A21009E3822 /* Foundation.framework */; };
+		56D9ADA514C84A21009E3822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D9ADA314C84A21009E3822 /* InfoPlist.strings */; };
+		56D9ADA814C84A22009E3822 /* ModalPaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9ADA714C84A22009E3822 /* ModalPaneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56D9AD9E14C84A21009E3822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D9AD6F14C84A21009E3822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D9AD7714C84A21009E3822;
+			remoteInfo = ModalPane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56D9AD7814C84A21009E3822 /* ModalPane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalPane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D9AD7C14C84A21009E3822 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56D9AD7E14C84A21009E3822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56D9AD8014C84A21009E3822 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56D9AD8414C84A21009E3822 /* ModalPane-Info.plist */ = {isa = PBXFileReference; path = "ModalPane-Info.plist"; sourceTree = "<group>"; };
+		56D9AD8614C84A21009E3822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D9AD8814C84A21009E3822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56D9AD8A14C84A21009E3822 /* ModalPane-Prefix.pch */ = {isa = PBXFileReference; path = "ModalPane-Prefix.pch"; sourceTree = "<group>"; };
+		56D9AD8B14C84A21009E3822 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		56D9AD8C14C84A21009E3822 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56D9AD8E14C84A21009E3822 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		56D9AD8F14C84A21009E3822 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56D9AD9214C84A21009E3822 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		56D9AD9914C84A21009E3822 /* ModalPaneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalPaneTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D9AD9A14C84A21009E3822 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		56D9ADA214C84A21009E3822 /* ModalPaneTests-Info.plist */ = {isa = PBXFileReference; path = "ModalPaneTests-Info.plist"; sourceTree = "<group>"; };
+		56D9ADA414C84A21009E3822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56D9ADA614C84A21009E3822 /* ModalPaneTests.h */ = {isa = PBXFileReference; path = ModalPaneTests.h; sourceTree = "<group>"; };
+		56D9ADA714C84A22009E3822 /* ModalPaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalPaneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D9AD7514C84A21009E3822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9AD7D14C84A21009E3822 /* UIKit.framework in Frameworks */,
+				56D9AD7F14C84A21009E3822 /* Foundation.framework in Frameworks */,
+				56D9AD8114C84A21009E3822 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D9AD9514C84A21009E3822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9AD9B14C84A21009E3822 /* SenTestingKit.framework in Frameworks */,
+				56D9AD9C14C84A21009E3822 /* UIKit.framework in Frameworks */,
+				56D9AD9D14C84A21009E3822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56D9AD6D14C84A21009E3822 = {
+			isa = PBXGroup;
+			children = (
+				56D9AD8214C84A21009E3822 /* ModalPane */,
+				56D9ADA014C84A21009E3822 /* ModalPaneTests */,
+				56D9AD7B14C84A21009E3822 /* Frameworks */,
+				56D9AD7914C84A21009E3822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56D9AD7914C84A21009E3822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56D9AD7814C84A21009E3822 /* ModalPane.app */,
+				56D9AD9914C84A21009E3822 /* ModalPaneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D9AD7B14C84A21009E3822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56D9AD7C14C84A21009E3822 /* UIKit.framework */,
+				56D9AD7E14C84A21009E3822 /* Foundation.framework */,
+				56D9AD8014C84A21009E3822 /* CoreGraphics.framework */,
+				56D9AD9A14C84A21009E3822 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56D9AD8214C84A21009E3822 /* ModalPane */ = {
+			isa = PBXGroup;
+			children = (
+				56D9AD8B14C84A21009E3822 /* AppDelegate.h */,
+				56D9AD8C14C84A21009E3822 /* AppDelegate.m */,
+				56D9AD8E14C84A21009E3822 /* ViewController.h */,
+				56D9AD8F14C84A21009E3822 /* ViewController.m */,
+				56D9AD9114C84A21009E3822 /* ViewController.xib */,
+				56D9AD8314C84A21009E3822 /* Supporting Files */,
+			);
+			path = ModalPane;
+			sourceTree = "<group>";
+		};
+		56D9AD8314C84A21009E3822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D9AD8414C84A21009E3822 /* ModalPane-Info.plist */,
+				56D9AD8514C84A21009E3822 /* InfoPlist.strings */,
+				56D9AD8814C84A21009E3822 /* main.m */,
+				56D9AD8A14C84A21009E3822 /* ModalPane-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56D9ADA014C84A21009E3822 /* ModalPaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				56D9ADA614C84A21009E3822 /* ModalPaneTests.h */,
+				56D9ADA714C84A22009E3822 /* ModalPaneTests.m */,
+				56D9ADA114C84A21009E3822 /* Supporting Files */,
+			);
+			path = ModalPaneTests;
+			sourceTree = "<group>";
+		};
+		56D9ADA114C84A21009E3822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D9ADA214C84A21009E3822 /* ModalPaneTests-Info.plist */,
+				56D9ADA314C84A21009E3822 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D9AD7714C84A21009E3822 /* ModalPane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D9ADAB14C84A22009E3822 /* Build configuration list for PBXNativeTarget "ModalPane" */;
+			buildPhases = (
+				56D9AD7414C84A21009E3822 /* Sources */,
+				56D9AD7514C84A21009E3822 /* Frameworks */,
+				56D9AD7614C84A21009E3822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalPane;
+			productName = ModalPane;
+			productReference = 56D9AD7814C84A21009E3822 /* ModalPane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56D9AD9814C84A21009E3822 /* ModalPaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D9ADAE14C84A22009E3822 /* Build configuration list for PBXNativeTarget "ModalPaneTests" */;
+			buildPhases = (
+				56D9AD9414C84A21009E3822 /* Sources */,
+				56D9AD9514C84A21009E3822 /* Frameworks */,
+				56D9AD9614C84A21009E3822 /* Resources */,
+				56D9AD9714C84A21009E3822 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D9AD9F14C84A21009E3822 /* PBXTargetDependency */,
+			);
+			name = ModalPaneTests;
+			productName = ModalPaneTests;
+			productReference = 56D9AD9914C84A21009E3822 /* ModalPaneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D9AD6F14C84A21009E3822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ビッツ有限会社";
+			};
+			buildConfigurationList = 56D9AD7214C84A21009E3822 /* Build configuration list for PBXProject "ModalPane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56D9AD6D14C84A21009E3822;
+			productRefGroup = 56D9AD7914C84A21009E3822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D9AD7714C84A21009E3822 /* ModalPane */,
+				56D9AD9814C84A21009E3822 /* ModalPaneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D9AD7614C84A21009E3822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9AD8714C84A21009E3822 /* InfoPlist.strings in Resources */,
+				56D9AD9314C84A21009E3822 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D9AD9614C84A21009E3822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9ADA514C84A21009E3822 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56D9AD9714C84A21009E3822 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D9AD7414C84A21009E3822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9AD8914C84A21009E3822 /* main.m in Sources */,
+				56D9AD8D14C84A21009E3822 /* AppDelegate.m in Sources */,
+				56D9AD9014C84A21009E3822 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D9AD9414C84A21009E3822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9ADA814C84A22009E3822 /* ModalPaneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56D9AD9F14C84A21009E3822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D9AD7714C84A21009E3822 /* ModalPane */;
+			targetProxy = 56D9AD9E14C84A21009E3822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56D9AD8514C84A21009E3822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D9AD8614C84A21009E3822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56D9AD9114C84A21009E3822 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D9AD9214C84A21009E3822 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		56D9ADA314C84A21009E3822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D9ADA414C84A21009E3822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56D9ADA914C84A22009E3822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56D9ADAA14C84A22009E3822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D9ADAC14C84A22009E3822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalPane/ModalPane-Prefix.pch";
+				INFOPLIST_FILE = "ModalPane/ModalPane-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56D9ADAD14C84A22009E3822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalPane/ModalPane-Prefix.pch";
+				INFOPLIST_FILE = "ModalPane/ModalPane-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56D9ADAF14C84A22009E3822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalPane.app/ModalPane";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalPane/ModalPane-Prefix.pch";
+				INFOPLIST_FILE = "ModalPaneTests/ModalPaneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		56D9ADB014C84A22009E3822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalPane.app/ModalPane";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalPane/ModalPane-Prefix.pch";
+				INFOPLIST_FILE = "ModalPaneTests/ModalPaneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D9AD7214C84A21009E3822 /* Build configuration list for PBXProject "ModalPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D9ADA914C84A22009E3822 /* Debug */,
+				56D9ADAA14C84A22009E3822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D9ADAB14C84A22009E3822 /* Build configuration list for PBXNativeTarget "ModalPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D9ADAC14C84A22009E3822 /* Debug */,
+				56D9ADAD14C84A22009E3822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56D9ADAE14C84A22009E3822 /* Build configuration list for PBXNativeTarget "ModalPaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D9ADAF14C84A22009E3822 /* Debug */,
+				56D9ADB014C84A22009E3822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D9AD6F14C84A21009E3822 /* Project object */;
+}
