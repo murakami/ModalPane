@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModalPaneViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ModalPaneViewControllerDelegate>
+
+- (IBAction)modalPane:(id)sender;
 
 @end

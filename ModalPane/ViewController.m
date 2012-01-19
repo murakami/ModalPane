@@ -57,4 +57,31 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+#pragma mark - IBAction
+
+- (IBAction)modalPane:(id)sender
+{
+    DBGMSG(@"%s", __func__);
+    ModalPaneViewController *viewController = [[ModalPaneViewController alloc] 
+                                               initWithNibName:@"ModalPaneViewController"
+                                               bundle:nil];
+    viewController.delegate = self;
+    UINavigationController  *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self presentModalViewController:navigationController animated:YES];
+}
+
+#pragma mark - ModalPaneViewControllerDelegate
+
+- (void)modalPaneViewControllerDidDone:(ModalPaneViewController *)modalPaneViewController
+{
+    DBGMSG(@"%s", __func__);
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void)modalPaneViewControllerDidCancel:(ModalPaneViewController *)modalPaneViewController
+{
+    DBGMSG(@"%s", __func__);
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 @end

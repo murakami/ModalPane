@@ -10,6 +10,8 @@
 
 @implementation ModalPaneViewController
 
+@synthesize delegate = _delegate;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -46,6 +48,20 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark - IBAction
+
+- (IBAction)done:(id)sender
+{
+    DBGMSG(@"%s", __func__);
+    [self.delegate modalPaneViewControllerDidDone:self];
+}
+
+- (IBAction)cancel:(id)sender
+{
+    DBGMSG(@"%s", __func__);
+    [self.delegate modalPaneViewControllerDidCancel:self];
 }
 
 @end

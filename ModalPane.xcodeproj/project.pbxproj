@@ -21,6 +21,8 @@
 		56D9ADA514C84A21009E3822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56D9ADA314C84A21009E3822 /* InfoPlist.strings */; };
 		56D9ADA814C84A22009E3822 /* ModalPaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9ADA714C84A22009E3822 /* ModalPaneTests.m */; };
 		56D9ADB214C84B63009E3822 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 56D9ADB114C84B63009E3822 /* README */; };
+		56D9ADB614C84E60009E3822 /* ModalPaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9ADB414C84E60009E3822 /* ModalPaneViewController.m */; };
+		56D9ADB714C84E60009E3822 /* ModalPaneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D9ADB514C84E60009E3822 /* ModalPaneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		56D9ADA614C84A21009E3822 /* ModalPaneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalPaneTests.h; sourceTree = "<group>"; };
 		56D9ADA714C84A22009E3822 /* ModalPaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalPaneTests.m; sourceTree = "<group>"; };
 		56D9ADB114C84B63009E3822 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		56D9ADB314C84E60009E3822 /* ModalPaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalPaneViewController.h; sourceTree = "<group>"; };
+		56D9ADB414C84E60009E3822 /* ModalPaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalPaneViewController.m; sourceTree = "<group>"; };
+		56D9ADB514C84E60009E3822 /* ModalPaneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalPaneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				56D9AD8E14C84A21009E3822 /* ViewController.h */,
 				56D9AD8F14C84A21009E3822 /* ViewController.m */,
 				56D9AD9114C84A21009E3822 /* ViewController.xib */,
+				56D9ADB314C84E60009E3822 /* ModalPaneViewController.h */,
+				56D9ADB414C84E60009E3822 /* ModalPaneViewController.m */,
+				56D9ADB514C84E60009E3822 /* ModalPaneViewController.xib */,
 				56D9AD8314C84A21009E3822 /* Supporting Files */,
 			);
 			path = ModalPane;
@@ -228,6 +236,7 @@
 				56D9AD8714C84A21009E3822 /* InfoPlist.strings in Resources */,
 				56D9AD9314C84A21009E3822 /* ViewController.xib in Resources */,
 				56D9ADB214C84B63009E3822 /* README in Resources */,
+				56D9ADB714C84E60009E3822 /* ModalPaneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +274,7 @@
 				56D9AD8914C84A21009E3822 /* main.m in Sources */,
 				56D9AD8D14C84A21009E3822 /* AppDelegate.m in Sources */,
 				56D9AD9014C84A21009E3822 /* ViewController.m in Sources */,
+				56D9ADB614C84E60009E3822 /* ModalPaneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
