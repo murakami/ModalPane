@@ -44,6 +44,7 @@
 - (void)viewDidUnload
 {
     self.delegate = nil;
+    self.completionHandler = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -60,7 +61,8 @@
 - (IBAction)done:(id)sender
 {
     DBGMSG(@"%s", __func__);
-    if ([self.delegate respondsToSelector:@selector(modalPaneViewControllerDidDone:)]) {
+    if ((self.delegate)
+            && ([self.delegate respondsToSelector:@selector(modalPaneViewControllerDidDone:)])) {
         [self.delegate modalPaneViewControllerDidDone:self];
     }
     if (self.completionHandler) {
@@ -71,7 +73,8 @@
 - (IBAction)cancel:(id)sender
 {
     DBGMSG(@"%s", __func__);
-    if ([self.delegate respondsToSelector:@selector(modalPaneViewControllerDidCancel:)]) {
+    if ((self.delegate)
+            && ([self.delegate respondsToSelector:@selector(modalPaneViewControllerDidCancel:)])) {
         [self.delegate modalPaneViewControllerDidCancel:self];
     }
     if (self.completionHandler) {
