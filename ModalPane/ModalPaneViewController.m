@@ -8,9 +8,13 @@
 
 #import "ModalPaneViewController.h"
 
+@interface ModalPaneViewController ()
+@end
+
 @implementation ModalPaneViewController
 
 @synthesize delegate = _delegate;
+@synthesize completionHandler = _completionHandler;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -59,6 +63,9 @@
     if ([self.delegate respondsToSelector:@selector(modalPaneViewControllerDidDone:)]) {
         [self.delegate modalPaneViewControllerDidDone:self];
     }
+    if (self.completionHandler) {
+        self.completionHandler(ModalPaneViewControllerResultDone);
+    }
 }
 
 - (IBAction)cancel:(id)sender
@@ -66,6 +73,9 @@
     DBGMSG(@"%s", __func__);
     if ([self.delegate respondsToSelector:@selector(modalPaneViewControllerDidCancel:)]) {
         [self.delegate modalPaneViewControllerDidCancel:self];
+    }
+    if (self.completionHandler) {
+        self.completionHandler(ModalPaneViewControllerResultCancelled);
     }
 }
 

@@ -8,6 +8,11 @@
 
 #import "ViewController.h"
 
+@interface ViewController ()
+- (void)didDone:(id)arg;
+- (void)didCencel:(id)arg;
+@end
+
 @implementation ViewController
 
 - (void)didReceiveMemoryWarning
@@ -65,8 +70,34 @@
     ModalPaneViewController *viewController = [[ModalPaneViewController alloc] 
                                                initWithNibName:@"ModalPaneViewController"
                                                bundle:nil];
-    viewController.delegate = self;
+    //viewController.delegate = self;
+    [viewController setCompletionHandler:^(ModalPaneViewControllerResult result) {
+        switch (result) {
+            case ModalPaneViewControllerResultCancelled:
+                [self performSelectorOnMainThread:@selector(didCencel:) withObject:nil waitUntilDone:NO];
+                break;
+            case ModalPaneViewControllerResultDone:
+                [self performSelectorOnMainThread:@selector(didDone:) withObject:nil waitUntilDone:NO];
+                break;
+            default:
+                break;
+        }
+        
+        [self dismissModalViewControllerAnimated:YES];
+    }];
     [self presentModalViewController:viewController animated:YES];
+}
+
+#pragma mark - private
+
+- (void)didDone:(id)arg
+{
+    DBGMSG(@"%s", __func__);
+}
+
+- (void)didCencel:(id)arg
+{
+    DBGMSG(@"%s", __func__);
 }
 
 #pragma mark - ModalPaneViewControllerDelegate

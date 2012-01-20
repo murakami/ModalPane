@@ -10,6 +10,13 @@
 
 @class ModalPaneViewController;
 
+typedef enum ModalPaneViewControllerResult {
+    ModalPaneViewControllerResultCancelled,
+    ModalPaneViewControllerResultDone
+} ModalPaneViewControllerResult;
+
+typedef void (^ModalPaneViewControllerCompletionHandler)(ModalPaneViewControllerResult result);
+
 @protocol ModalPaneViewControllerDelegate <NSObject>
 - (void)modalPaneViewControllerDidDone:(ModalPaneViewController *)modalPaneViewController;
 - (void)modalPaneViewControllerDidCancel:(ModalPaneViewController *)modalPaneViewController;
@@ -17,7 +24,8 @@
 
 @interface ModalPaneViewController : UIViewController
 
-@property (nonatomic, weak) id<ModalPaneViewControllerDelegate>   delegate;
+@property (nonatomic, weak) id<ModalPaneViewControllerDelegate>         delegate;
+@property (nonatomic, copy) ModalPaneViewControllerCompletionHandler    completionHandler;
 
 - (IBAction)done:(id)sender;
 - (IBAction)cancel:(id)sender;
