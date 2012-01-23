@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 - (void)didDone:(id)arg;
-- (void)didCencel:(id)arg;
+- (void)didCancel:(id)arg;
 @end
 
 @implementation ViewController
@@ -74,7 +74,7 @@
     [viewController setCompletionHandler:^(ModalPaneViewControllerResult result) {
         switch (result) {
             case ModalPaneViewControllerResultCancelled:
-                [self performSelectorOnMainThread:@selector(didCencel:) withObject:nil waitUntilDone:NO];
+                [self performSelectorOnMainThread:@selector(didCancel:) withObject:nil waitUntilDone:NO];
                 break;
             case ModalPaneViewControllerResultDone:
                 [self performSelectorOnMainThread:@selector(didDone:) withObject:nil waitUntilDone:NO];
@@ -95,7 +95,7 @@
     DBGMSG(@"%s", __func__);
 }
 
-- (void)didCencel:(id)arg
+- (void)didCancel:(id)arg
 {
     DBGMSG(@"%s", __func__);
 }
