@@ -207,7 +207,7 @@
 		56D9AD6F14C84A21009E3822 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "ビッツ有限会社";
 			};
 			buildConfigurationList = 56D9AD7214C84A21009E3822 /* Build configuration list for PBXProject "ModalPane" */;
@@ -444,6 +444,7 @@
 				56D9ADAD14C84A22009E3822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56D9ADAE14C84A22009E3822 /* Build configuration list for PBXNativeTarget "ModalPaneTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +453,7 @@
 				56D9ADB014C84A22009E3822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
