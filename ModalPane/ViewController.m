@@ -70,7 +70,7 @@
     ModalPaneViewController *viewController = [[ModalPaneViewController alloc] 
                                                initWithNibName:@"ModalPaneViewController"
                                                bundle:nil];
-    //viewController.delegate = self;
+    /* viewController.delegate = self; */
     [viewController setCompletionHandler:^(ModalPaneViewControllerResult result) {
         switch (result) {
             case ModalPaneViewControllerResultCancelled:
@@ -85,7 +85,8 @@
         
         [self dismissModalViewControllerAnimated:YES];
     }];
-    [self presentModalViewController:viewController animated:YES];
+    /* [self presentModalViewController:viewController animated:YES]; */
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 #pragma mark - private
